@@ -181,7 +181,7 @@ a:visited {
     border-radius: px;
     width: 22.5vw;
     margin-right: 10px;
-    
+    margin-top: -2px;
 }
 
 
@@ -210,5 +210,13 @@ a:visited {
         margin-bottom: 25px;
         padding-bottom: 15px;
         width: 45vw;
+    }
+}
+
+@media (min-width: 1216px) {
+    .aboutMeContainer img {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 273.6px;
     }
 }
